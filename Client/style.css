@@ -1,0 +1,13 @@
+body {background-color: black;}
+h1   {color: blue;}
+p    {color: red;}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* prevents scrollbars */
+}
+canvas {
+    display: block;
+    background-color: rgb(0, 0, 0); /* you can also set it here */
+}

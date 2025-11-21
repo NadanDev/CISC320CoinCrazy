@@ -1,0 +1,54 @@
+@width 10
+@length 10
+@height 2
+
+@alias a Void
+@alias + Floor
+@alias = WallFront
+@alias ^ WallBack
+@alias [ LeftWall
+@alias ] RightWall
+@alias z Portal
+@alias A ArcadeMachine
+@alias B Box
+@alias C Crowbar
+@alias P PurpleButton
+@alias Q RedButton
+@alias R GreenButton
+@alias S YellowButton
+@alias T BlueButton
+@alias X PaintBox
+
+@event Change_Map interact
+@event Pickup_Crowbar interact
+@event CHANGE_TILE tilechange
+
+
+
+@trigger-tile Change_Map ArcadeMachine
+@trigger-tile Pickup_Crowbar Crowbar
+@trigger-tile CHANGE_TILE *
+
+@initmap
+[ = = = = = = = = ]
+[ + + + + + + + + ]
+[ + + + + + + + + ]
+[ + + + + + + + + ]
+[ + + + + + + + + ]
+[ + + + + + + + + ]
+[ + + + + + + + + ]
+[ + + + + + + + + ]
+[ + + + + + + + + ]
+a ^ ^ ^ ^ ^ ^ ^ ^ a
+
+
+[ = = = = = = = = ]
+[ A a A a A a a a ]
+[ a a a a a a a a ]
+[ P a a a a a a a ]
+[ Q a a a a C a a ]
+[ R a a a a a a a ]
+[ S a a a a a a a ]
+[ T a a X a a a a ]
+[ a a B B a a a a ]
+a ^ ^ ^ ^ ^ ^ ^ ^ a

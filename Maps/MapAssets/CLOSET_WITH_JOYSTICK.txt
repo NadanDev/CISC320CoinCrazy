@@ -1,0 +1,42 @@
+@width 10
+@length 10
+@height 2
+
+@alias a Void
+@alias + Floor
+@alias = WallFront
+@alias ^ WallBack
+@alias [ LeftWall
+@alias ] RightWall
+@alias z Portal
+@alias A ArcadeMachine
+@alias B Box
+@alias J Joystick
+
+@event Change_Map interact
+
+@trigger-tile Change_Map Portal
+
+@initmap
+[ = = = = = = = = ]
+[ + + + + + + + + ]
+[ + + + + + + + + ]
+[ + + + + + + + + ]
+[ + + + + + + + + ]
+[ + + + + + + + + ]
+[ + + + + + + + + ]
+[ + + + + + + + + ]
+[ + + + + + + + + ]
+a ^ ^ ^ ^ ^ ^ ^ ^ a
+
+
+[ = = = = = = = = ]
+[ A a A a A a a a ]
+[ a a a a a a a a ]
+[ a a a a a a a a ]
+[ a a a a a a a a ]
+[ J a a a a a a a ]
+[ a a a a a a a a ]
+[ a a a a a a a a ]
+[ a a B B a a a a ]
+a ^ ^ ^ ^ ^ ^ ^ ^ a

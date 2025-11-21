@@ -1,0 +1,42 @@
+@width 35
+@length 11
+@height 2
+
+@alias a Void
+@alias + Floor
+@alias = WallFront
+@alias ^ WallBack
+@alias [ LeftWall
+@alias ] RightWall
+@alias z Portal
+@alias c Coins
+
+@event Change_Map interact
+
+@trigger-tile Change_Map Portal
+
+@initmap
+[ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = ]
+[ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + ]
+[ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + ]
+[ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + ]
+[ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + ]
+[ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + ]
+[ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + ]
+[ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + ]
+[ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + ]
+[ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + ]
+a ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ a
+
+
+[ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = ]
+[ a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ]
+[ a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ]
+[ a a a c c c c a c c c c a a a c c c a a c c c c c a c a a a c a a ]
+[ a a c a a a a a c a a a c a c a a a c a a a a c a a c a a a c a a ]
+[ a a c a a a a a c c c c a a c c c c c a a a c a a a a c c c a a a ]
+[ a a c a a a a a c a a c a a c a a a c a a c a a a a a a c a a a a ]
+[ a a a c c c c a c a a a c a c a a a c a c c c c c a a a c a a a a ]
+[ a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ]
+[ a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ]
+a ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ a

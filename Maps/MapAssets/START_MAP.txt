@@ -1,0 +1,35 @@
+@width 13
+@length 10
+@height 2
+
+@alias a Void
+@alias + Floor
+@alias = Wall
+@alias z Portal
+
+@event Change_Map interact
+
+@trigger-tile Change_Map Portal
+
+@initmap
+a a a a a a a a a a a a a
+a + + + + + + + + + + + a
+a + + + + + + + + + + + a
+a + + + + + + + + + + + a
+a + + + + + + + + + + + a
+a + + + + + + + + + + + a
+a + + + + + + + + + + + a
+a + + + + + + + + + + + a
+a + + + + + + + + + + + a
+a a a a a a a a a a a a a
+
+a a a a a a a a a a a a a
+a + + + + + + + + + + + a
+a + + + + + + + + + + + a
+a + + + + + + + + + + + a
+a + + + + + + + + + + + a
+a + + + + + + + + + + + a
+a + + + + + + + + + + + a
+a + + + + + + + + + + + a
+a + + + + + + + + + + + a
+a a a a a a a a a a a a a
