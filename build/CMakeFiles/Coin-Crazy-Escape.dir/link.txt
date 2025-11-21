@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Coin-Crazy-Escape.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\Coin-Crazy-Escape.dir/objects.a @CMakeFiles\Coin-Crazy-Escape.dir\objects1.rsp
+C:\mingw64\bin\c++.exe -Wl,--whole-archive CMakeFiles\Coin-Crazy-Escape.dir/objects.a -Wl,--no-whole-archive -o Coin-Crazy-Escape.exe -Wl,--out-implib,libCoin-Crazy-Escape.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Coin-Crazy-Escape.dir\linkLibs.rsp

@@ -1,0 +1,3 @@
+[submodule "Client/ExternalLibs/SoundManager2"]
+	path = Client/ExternalLibs/SoundManager2
+	url = https://github.com/scottschiller/SoundManager2

@@ -1,0 +1,3 @@
+C:/Users/Nathan Daneliak/Desktop/School/320Prj/coin-crazy-3/build/CMakeFiles/Coin-Crazy-Escape.dir
+C:/Users/Nathan Daneliak/Desktop/School/320Prj/coin-crazy-3/build/CMakeFiles/edit_cache.dir
+C:/Users/Nathan Daneliak/Desktop/School/320Prj/coin-crazy-3/build/CMakeFiles/rebuild_cache.dir
